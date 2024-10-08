@@ -1,0 +1,246 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    color: #777;
+    font-size: 1.5rem;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills-section {
+    margin: 20px 0;
+}
+
+.skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.skills-container {
+    border: 1px solid #ccc;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.skill-row {
+    
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #fffefe;
+    background-color: #f9f9f9;
+    gap: 10px;
+    
+}
+
+.skill-row:last-child {
+    border-bottom: none;
+}
+
+
+/* Experience Section */
+.experience-section {
+    margin: 20px 0;
+}
+
+.experience-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.experience-container {
+    border: 1px solid #ccc;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.experience-row {
+    padding: 15px;
+    border-left: 5px solid #000;;
+    border-bottom: 5px solid #faf9f9;
+    background-color: #f0f0f0;
+}
+
+.experience-row h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.experience-row p {
+    margin: 5px 0;
+}
+
+.experience-row:last-child {
+    border-bottom: none;
+}
+
+/* Education Section */
+table {
+    width: 99%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+/* Achievements Section */
+.achievements-section {
+    margin: 20px 0;
+}
+
+.achievements-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.achievements-container {
+    border: 1px solid #ccc;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+.achievement-row {
+    padding: 15px;
+    border-bottom: 5px solid #fafafa;
+    border-left: 5px solid #000;;
+    background-color: #ecebeb;
+}
+
+.achievement-row p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.achievement-row:last-child {
+    border-bottom: none;
+}
+
+
+/* Contact Section */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
